@@ -1,0 +1,168 @@
+* {
+  margin: 0px;
+  font-size: 24px
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-color:rgb(0, 0, 0);
+  font-family: Poppins;
+}
+/*--Navbar css starts--*/
+#navbar {
+  background-color:black;
+  height: 12vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 1000;
+}
+#namelogo {
+  margin-left:7vw;
+}
+.nav-links {
+  margin-right: 7vw;
+}
+.nav-links a {
+  color:white;
+  text-decoration: none;
+  padding: 1vw;
+  position: relative;
+}
+.nav-links a::after {
+  content: "";
+  width: 0;
+  height: 0.3vh;
+  margin-left: 1vw;
+  position: absolute;
+  left: 0;
+  bottom: 1px;
+  background-color: #d62828;
+  transition: width 0.3s ease;
+}
+.nav-links a:hover::after {
+  content: "";
+  width: 75%;
+  margin-left: 1vw;
+  height: 0.3vh;
+  position: absolute;
+  left: 0;
+  bottom: 1px;
+  background-color: #d62828;
+  transition: width 0.3s ease;
+}
+.nav-links a.active-link::after {
+  width: 72%;
+  margin-left: 1vw;
+}
+#menu-icon {
+  display: none;
+  color: white;
+  font-size:4vh;
+  cursor: pointer;
+}
+#cross-icon {
+  display: none;
+  color: white;
+  font-size: 0.85rem;
+  cursor: pointer;
+}
+/*--Navbar css ends--*/
+
+/*--first section css starts--*/
+#firstsection {
+  background-image: url("images/1111.jpg");
+  background-attachment: fixed;
+  background-position-x: calc(100% - 8vw);
+  background-position-y: center;
+  background-repeat: no-repeat;
+  height:100vh;
+  background-size: auto 35vw;
+  border-bottom: 1px solid grey;
+
+
+}
+#firstsection-leftdiv {
+  color:white;
+  width:45vw;
+  height:65vh;
+  display: flex;
+  flex-direction: column;
+  margin-left: 7vw;
+  margin-top: 13vh;
+  position:relative;
+  top: 10vh;
+}
+#firstsection-leftdiv > h1 {
+  font-size: 6vh;
+  font-weight: 400;
+}
+.profession{
+  font-size:6vh;
+}
+/* Blinking cursor effect */
+.profession::after {
+  color: #d62828;
+  content: "|";
+  animation: blink 0.8s infinite;
+}
+
+/* Blinking cursor animation */
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+#firstsection-icons-container {
+  height: 11vh;
+  width: 20vw;
+  margin-top: 2vh;
+}
+
+.social-iconlink > i {
+  font-size: 5vh;
+  margin: 0.6vw;
+  color:white;
+  border-radius: 50%;
+  transition: transform 0.5s;
+}
+.social-iconlink > i:hover {
+  color: #d62828;
+  transform: translateY(-5px);
+}
+
+
+#cv-button {
+  width: 12vw;
+  height: 8vh;
+  border-style: none;
+  border: 1px solid black;
+  border-radius: 25px;
+  margin-top: 2vh;
+  cursor: pointer;
+}
+#cv-button:hover {
+  background-color: #d62828;
+  color:white;
+  transition: 1s;
+}
+#cv-btn-link {
+  text-decoration:none;
+  color: black;
+}
+#firstsection-rightdiv{
+  display:none;
+  width:45vw;
+  height:65vh;
+  margin-left:1vw;
+  margin-right:1vw;
+  margin-top: 13vh;
+}
+
+/*--first section css ends--*/
