@@ -43,7 +43,7 @@ body {
   position: absolute;
   left: 0;
   bottom: 1px;
-  background-color: #d62828;
+  background-color: #4a9fd8;
   transition: width 0.3s ease;
 }
 .nav-links a:hover::after {
@@ -54,7 +54,7 @@ body {
   position: absolute;
   left: 0;
   bottom: 1px;
-  background-color: #d62828;
+  background-color: #4a9fd8;
   transition: width 0.3s ease;
 }
 .nav-links a.active-link::after {
@@ -108,7 +108,7 @@ body {
 }
 /* Blinking cursor effect */
 .profession::after {
-  color: #d62828;
+  color: #4a9fd8;
   content: "|";
   animation: blink 0.8s infinite;
 }
@@ -133,7 +133,7 @@ body {
   transition: transform 0.5s;
 }
 .social-iconlink > i:hover {
-  color: #d62828;
+  color: #4a9fd8;
   transform: translateY(-5px);
 }
 
@@ -148,7 +148,7 @@ body {
   cursor: pointer;
 }
 #cv-button:hover {
-  background-color: #d62828;
+  background-color: #4a9fd8;
   color:white;
   transition: 1s;
 }
@@ -166,3 +166,96 @@ body {
 }
 
 /*--first section css ends--*/
+
+
+
+/*--about section css starts--*/
+#about-me {
+  text-align: center;
+  margin-top: 5vh;
+  color:white;
+  font-weight: 400;
+}
+#about-me::first-letter {
+  color: #d62828;
+}
+#about-section {
+  background-image: url("images/second.webp");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position-y: center;
+  background-position-x: calc(8%);
+  height:100vh;
+  border-bottom: 1px solid grey;
+  margin-top: 2vh;
+}
+ 
+#aboutsection-leftdiv {
+  color:white;
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  height: 85vh;
+  width: 45vw;
+ float:right;
+ right: 60vw;
+ margin-right: 7vw;
+}
+#aboutsection-leftdiv>p {
+  margin-top: 7vh;
+}
+#tab-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 2vh;
+  font-weight: bold;
+}
+.tab-link {
+  position: relative;
+  cursor: pointer;
+  
+}
+.tab-link::after {
+  content: "";
+  width: 0;
+  height: 0.5vh;
+  left: 0;
+  bottom: -3px;
+  position: absolute;
+  background-color: #d62828;
+  transition: 1s;
+}
+.tab-link.active-link::after {
+  width: 1.5vw;
+  margin-left: 0.8vw;
+}
+.tab-content {
+  display: none;
+}
+.tab-content.active-tab {
+  display: block;
+}
+#edu,
+#lang {
+  padding-left: 0.5vw;
+}
+li {
+  list-style: none;
+  position: relative;
+  right: 3vw;
+  margin-top: 1vh;
+}
+ul li span {
+  color: #d62828;
+  font-size: 14px;
+  font-weight: bold;
+  margin-left: 0;
+}
+#aboutsection-rightdiv{
+  display:none;
+  width:45vw;
+  height:65vh;
+  margin-left:1vw;
+  margin-top: 13vh;
+}
+/*--about section css ends--*/
