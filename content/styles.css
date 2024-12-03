@@ -177,7 +177,7 @@ body {
   font-weight: 400;
 }
 #about-me::first-letter {
-  color: #d62828;
+  color: #4a9fd8;
 }
 #about-section {
   background-image: url("images/second.webp");
@@ -222,7 +222,7 @@ body {
   left: 0;
   bottom: -3px;
   position: absolute;
-  background-color: #d62828;
+  background-color: #4a9fd8;
   transition: 1s;
 }
 .tab-link.active-link::after {
@@ -246,7 +246,7 @@ li {
   margin-top: 1vh;
 }
 ul li span {
-  color: #d62828;
+  color: #4a9fd8;
   font-size: 14px;
   font-weight: bold;
   margin-left: 0;
