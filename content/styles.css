@@ -180,7 +180,8 @@ body {
   color: #4a9fd8;
 }
 #about-section {
-  background-image: url("images/second.webp");
+  /* background-image: url("images/second.webp"); */
+  background-image: url("https://raw.githubusercontent.com/jsuarezruiz/jsuarezruiz/master/images/coding.gif" );
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position-y: center;
@@ -213,7 +214,8 @@ body {
 .tab-link {
   position: relative;
   cursor: pointer;
-  
+   margin-right: 30p; 
+   /* some wokr needed here xsdvfffffffffffvvvvvvvvfffffffffffffffffffffffffffffffffffffff */
 }
 .tab-link::after {
   content: "";
