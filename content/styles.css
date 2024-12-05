@@ -214,7 +214,7 @@ body {
 .tab-link {
   position: relative;
   cursor: pointer;
-   margin-right: 30p; 
+   margin-right: 35x; 
    /* some wokr needed here xsdvfffffffffffvvvvvvvvfffffffffffffffffffffffffffffffffffffff */
 }
 .tab-link::after {
@@ -236,6 +236,9 @@ body {
 }
 .tab-content.active-tab {
   display: block;
+}
+.highlight{
+  color: #4a9fd8;
 }
 #edu,
 #lang {
@@ -261,3 +264,4 @@ ul li span {
   margin-top: 13vh;
 }
 /*--about section css ends--*/
+
