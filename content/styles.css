@@ -328,9 +328,7 @@ ul li span {
   color:white;
   font-weight: 400;
 }
-#my-project::first-letter {
-  color: #d62828;
-}
+
 #project-section {
   height:87vh;
   color:white;
@@ -372,7 +370,7 @@ ul li span {
   transform: scale(1.1);
 }
 .project-layer {
-  background: linear-gradient(to bottom, rgba(255, 0, 0, 0), #d62828);
+  background: linear-gradient(to bottom, rgba(255, 0, 0, 0), #4a9fd8);
   text-align: center;
   height: 0;
   width: 100%;
@@ -391,16 +389,20 @@ ul li span {
 }
 .project-title {
   margin-top:10vh;
+  font-size: 1.6vw;
+  color: black;
 }
 .project-description {
   padding-left: 2vw;
   padding-right: 2vw;
+  font-size: 1.15vw;
   margin-top:2vh;
-  font-size: 12px;
+  /* font-size: 12px; */
+  color: black;
 }
 .project-link {
   text-decoration: none;
-  color: #d62828;
+  color: #4a9fd8;
   background-color:white;
   height: 5vh;
   width: 5vh;
@@ -415,7 +417,7 @@ ul li span {
   height: 8vh;
   margin-top: 2vh;
   border-style: none;
-  border: 1px solid #d62828;
+  border: 1px solid #4a9fd8;
   background-color: black;
   color:white;
   border-radius: 25px;
@@ -425,7 +427,7 @@ ul li span {
   left: 44vw;
 }
 #see-more-btn:hover {
-  background-color: #d62828;
+  background-color: #4a9fd8c2;
 }
 /*--THE FOLLOWING CSS OF PROJECT SECTION WILL APPLIED ON PROJECT-SECTION WHEN  CLICKED SEEMORE BUTTON---*/
 
