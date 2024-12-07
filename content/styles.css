@@ -350,7 +350,7 @@ ul li span {
   display:none;
 }
 .project {
-  background-color: #353535;
+  background-color: #353535a6;
   height:50vh;
   width: 50vh;
   border-radius: 10px;
@@ -360,6 +360,7 @@ ul li span {
   position: relative;
   overflow: hidden;
 }
+
 .project-img {
   width: 100%;
   height: 100%;
@@ -382,7 +383,7 @@ ul li span {
   position: absolute;
   left: 0;
   bottom: 0;
-  transition: height 0.5s;
+  transition: height 0.8s;
 }
 .project:hover .project-layer {
   height: 100%;
@@ -417,18 +418,26 @@ ul li span {
   height: 8vh;
   margin-top: 2vh;
   border-style: none;
-  border: 1px solid #4a9fd8;
+  border: 3px solid #f4f4f5fe;
+  border-image: linear-gradient(to right, #f7f7f7, #4d90b2) 1;
   background-color: black;
   color:white;
-  border-radius: 25px;
+  /* border-radius: 25px; */
   cursor: pointer;
   font-size: 16px;
   position: relative;
   left: 44vw;
 }
 #see-more-btn:hover {
-  background-color: #4a9fd8c2;
+  /* background-color: #4a9fd8c2; */
+
+  
+    /* background-color: #4f7e96; */
+    background: linear-gradient(to right,#4d90b2, rgba(255, 255, 255, 0));
+    color:rgb(255, 255, 255);
+    transition: 1.2s;
 }
+
 /*--THE FOLLOWING CSS OF PROJECT SECTION WILL APPLIED ON PROJECT-SECTION WHEN  CLICKED SEEMORE BUTTON---*/
 
 #project-section.height{
