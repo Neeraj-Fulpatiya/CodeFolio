@@ -457,3 +457,145 @@ ul li span {
 }
 
 /*--project section css ends--*/
+
+
+/*--Contact section css start--*/
+#contact-me {
+  text-align: center;
+  margin-top: 5vh;
+  color:white;
+  font-weight: 400;
+}
+#contact-me::first-letter {
+  color: #4a9fd8;
+}
+#contact-section {
+  height: 85vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 2vh;
+}
+#contact-heading::first-letter {
+  color: #4a9fd8;
+}
+#contact-section-form {
+  height: 85vh;
+  width: 45vw;
+  margin-right: 7vw;
+  margin-top:8vh;
+}
+#contact-section-leftdiv {
+  /*background-color:aqua;*/
+  color:white;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-top: 3vh;
+  height: 65vh;
+  width: 35vw;
+  margin-left: 7vw;
+  margin-top: 10vh;
+}
+#let-connect {
+  margin-top: 9vh;
+}
+#contact-para {
+  margin-top: 5vh;
+  font-size: 14px;
+}
+#contact-icons-container {
+  width: 14vw;
+  height: 5vh;
+}
+.email {
+  margin-top: 2vh;
+  color: #6c757d;
+}
+.email > i {
+  color: #4a9fd8;
+}
+#contact-icons-container > i {
+  font-size: 4vh;
+  margin-right: 2vw;
+  margin-top: 3.5vh;
+  color: #6c757d;
+  cursor: pointer;
+  transition: transform 0.5s;
+}
+#contact-icons-container > i:hover {
+  color: #4a9fd8;
+  transform: translateY(-5px);
+}
+#form {
+  color: #6c757d;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  margin-top: 6vh;
+}
+#form input {
+  padding: 2.5vh 0 2.5vh 1vh;
+  margin-top: 4vh;
+  border-radius: 3px;
+  background-color: #353535;
+  color:white;
+  font-size: 14px;
+  border: none;
+  outline: none;
+}
+#form textarea {
+  background-color: #353535;
+  color:white;
+  border-radius: 3px;
+  margin-top: 4vh;
+  padding-left: 1vh;
+  font-size: 14px;
+  border: none;
+  outline: none;
+}
+#submit-btn {
+  width: 11vw;
+  height: 8vh;
+  margin-top: 4vh;
+  border-style: none;
+  border: 1px solid #4a9fd8;
+  background-color: black;
+  color:white;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 16px;
+}
+#submit-btn:hover {
+  background-color: #4a9fd8;
+}
+/*--Contact section css ends--*/
+/*--footer section css start--*/
+footer {
+  background-color: #141313;
+  /* color: #6c757d; */
+  height: 10vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  
+}
+/* footer i {
+  color: red;
+} */
+/*--footer section css ends--*/
+.end{
+  /* border: 0px solid white; */
+  padding: 3rem;
+  font-size: 2vw;
+  font-weight: 900;
+  background:linear-gradient( to right, #4a9fd8, #fefdfdd5);
+  /* color: black; */
+  
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+
+} 
