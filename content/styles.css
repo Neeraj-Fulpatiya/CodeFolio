@@ -466,9 +466,7 @@ ul li span {
   color:white;
   font-weight: 400;
 }
-#contact-me::first-letter {
-  color: #4a9fd8;
-}
+ 
 #contact-section {
   height: 85vh;
   display: flex;
@@ -476,9 +474,7 @@ ul li span {
   justify-content: space-between;
   margin-top: 2vh;
 }
-#contact-heading::first-letter {
-  color: #4a9fd8;
-}
+ 
 #contact-section-form {
   height: 85vh;
   width: 45vw;
@@ -499,10 +495,11 @@ ul li span {
 }
 #let-connect {
   margin-top: 9vh;
+  font-size: 2vw;
 }
 #contact-para {
-  margin-top: 5vh;
-  font-size: 14px;
+  margin-top: 3vh;
+  font-size: 1.3vw;
 }
 #contact-icons-container {
   width: 14vw;
@@ -513,9 +510,12 @@ ul li span {
   color: #6c757d;
 }
 .email > i {
-  color: #4a9fd8;
+  /* color: #4a9fd8; */
 }
-#contact-icons-container > i {
+.email-icon > i{
+  /* color: #4a9fd8; */
+}
+#contact-icons-container > a > i {
   font-size: 4vh;
   margin-right: 2vw;
   margin-top: 3.5vh;
@@ -523,7 +523,7 @@ ul li span {
   cursor: pointer;
   transition: transform 0.5s;
 }
-#contact-icons-container > i:hover {
+#contact-icons-container > a > i:hover {
   color: #4a9fd8;
   transform: translateY(-5px);
 }
@@ -562,12 +562,17 @@ ul li span {
   border: 1px solid #4a9fd8;
   background-color: black;
   color:white;
-  border-radius: 25px;
+  /* border-radius: 25px; */
   cursor: pointer;
   font-size: 16px;
+  border-image: linear-gradient(to right, #f7f7f7, #4d90b2) 1;
 }
+
 #submit-btn:hover {
-  background-color: #4a9fd8;
+  /* background-color: #4a9fd8; */
+  background: linear-gradient(to right,#4d90b2, rgba(255, 255, 255, 0));
+  color:rgb(255, 255, 255);
+  transition: 1.2s;
 }
 /*--Contact section css ends--*/
 /*--footer section css start--*/
@@ -588,7 +593,7 @@ footer {
 /*--footer section css ends--*/
 .end{
   /* border: 0px solid white; */
-  padding: 3rem;
+  /* padding: 3rem; */
   font-size: 2vw;
   font-weight: 900;
   background:linear-gradient( to right, #4a9fd8, #fefdfdd5);
