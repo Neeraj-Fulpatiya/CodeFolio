@@ -172,13 +172,12 @@ body {
 /*--about section css starts--*/
 #about-me {
   text-align: center;
-  margin-top: 5vh;
+  margin-top: 4vh;
   color:white;
   font-weight: 400;
+  font-size: 2vw;
 }
-#about-me::first-letter {
-  color: #4a9fd8;
-}
+ 
 #about-section {
   /* background-image: url("images/second.webp"); */
   background-image: url("https://raw.githubusercontent.com/jsuarezruiz/jsuarezruiz/master/images/coding.gif" );
@@ -310,6 +309,9 @@ ul li span {
   padding-right: 2vw;
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
+}
+.servicesh2{
+  font-size: 29px;
 }
 .services:hover {
   /* background-color: #4a9fd8; */
