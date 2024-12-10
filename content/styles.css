@@ -544,9 +544,11 @@ ul li span {
   border-radius: 3px;
   /* border: 1px solid red; */
   /* background-color: #353535; */
-  background: linear-gradient(to right, #1f1919a1, #52a4cd37) ;
-  border-image: linear-gradient(to right, #44bbce5d, #1123271d) 1;
+  background: linear-gradient(to right, #1f1919a1, #68c8f800) ;
+  /* border-image: linear-gradient(to right, #44bbce5d, #1123271d) 1; */
+  border-image: linear-gradient(to right, #2e87945d, #1123271d) 1;
 
+  /* height: 6vh; */
   color:white;
   font-size: 17px;
   /* border: none; */
@@ -554,8 +556,8 @@ ul li span {
 }
 #form textarea {
   background-color: #353535;
-  background: linear-gradient(to right, #1f1919a1, #52a4cd37) ;
-  border-image: linear-gradient(to right, #44bbce5d, #1123271d) 1;
+  background: linear-gradient(to right, #1f1919a1, #68c8f800) ;
+  border-image: linear-gradient(to right, #2e87945d, #1123271d) 1;
 height: 6vh;
   color:white;
   border-radius: 3px;
@@ -564,6 +566,13 @@ height: 6vh;
   font-size:17px;
   /* border: none; */
   outline: none;
+  /* text-align: center; */
+}
+#form textarea::placeholder{
+  display: flex;
+  line-height: 6vh;
+  justify-content: center;
+  /* text-align: center; */
 }
 #submit-btn {
   width: 11vw;
@@ -586,6 +595,7 @@ height: 6vh;
   transition: 1.2s;
 }
 /*--Contact section css ends--*/
+
 /*--footer section css start--*/
 footer {
   background-color: #141313;
