@@ -105,6 +105,7 @@ body {
 }
 .profession{
   font-size:6vh;
+  color: #4a9fd8;
 }
 /* Blinking cursor effect */
 .profession::after {
