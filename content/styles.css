@@ -716,6 +716,37 @@ footer {
 /*--first section css ends--*/
 
 
+/*--aboutt section css starts--*/
+#about-section {
+  background-image: url("images/Picture1.png");
+}
+ 
+#aboutsection-rightdiv {
+  width: 43vw;
+ font-size:16px;
+ 
+}
+/*--aboutt section css ends--*/
+ 
+
+/*--service section css starts--*/
+#service-container {
+  gap:2vw;
+}
+.services {
+  height:45vh;
+  width: 50vw;
+  font-size: 12px;
+  line-height:120%;
+}
+.services>i {
+  font-size:6vh;
+}
+.services>h2 {
+  font-size:2vh;
+}
+/*--services section css ends--*/
+
 
 
 }
