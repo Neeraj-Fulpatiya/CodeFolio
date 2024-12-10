@@ -748,5 +748,38 @@ footer {
 /*--services section css ends--*/
 
 
+/*--project section css starts--*/
+#project-container{
+  gap: 2vw;
+  }
+  .project {
+    height:45vh;
+    width: 40vh;
+  }
+  #see-more-btn {
+    width:20vw;
+  }
+  #project-container2.showmore{
+    height: 72vh;
+    gap: 2vw;
+  }
+  /*--project section css ends--*/
+
+  
+/*--Contact section responsive-css start--*/
+#contact-para {
+  font-size: 12px;
+}
+#contact-icons-container {
+  width:20vw;
+}
+.email {
+ font-size: 11px;
+}
+#submit-btn {
+  width:20vw;
+}
+/*--Contact section responsive-css ends--*/
+
 
 }
