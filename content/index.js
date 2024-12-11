@@ -72,3 +72,22 @@ function opentab(tabname, event) {
     // Show the corresponding tab content
     document.getElementById(tabname).classList.add("active-tab");
 }
+/*--About section js end---*/
+
+/*--Contact-form js start---*/
+function sendMail(){
+  let parms = {
+      name: document.querySelector("#name").value,
+      email: document.querySelector("#email").value,
+      message: document.querySelector("#message").value
+  };
+  emailjs.send("service_cqafgcl","template_cyt2gqb", parms)
+      .then(() =>{
+          alert("Email has been sent!");
+      })
+      .catch((error) => {
+          console.error("Failed to send email:", error);
+      });
+}
+
+/*---Contact-form js end---*/
