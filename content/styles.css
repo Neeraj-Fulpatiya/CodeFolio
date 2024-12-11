@@ -141,21 +141,30 @@ body {
 
 #cv-button {
   width: 12vw;
+  background: black;
   height: 8vh;
-  border-style: none;
+  /* border-style: none; */
   border: 1px solid black;
-  border-radius: 25px;
+  /* border-radius: 25px; */
+  /* background: linear-gradient(to right, #1f1919a1, #68c8f800) ; */
+  /* border-image: linear-gradient(to right, #2e87945d, #1123271d) 1; */
+  border-image: linear-gradient(to right, #fcfcfcb6, #59baeb) 1;
+
+  color: white;
   margin-top: 2vh;
   cursor: pointer;
 }
 #cv-button:hover {
-  background-color: #4a9fd8;
+  /* background-color: #4a9fd8; */
   color:white;
+  background: linear-gradient(to right,#4d90b2, rgba(255, 255, 255, 0));
+border: none;
   transition: 1s;
 }
 #cv-btn-link {
   text-decoration:none;
-  color: black;
+  /* color: black; */
+  color: white;
 }
 #firstsection-rightdiv{
   display:none;
@@ -189,7 +198,7 @@ body {
   height:100vh;
   border-bottom: 1px solid grey;
   margin-top: 2vh;
-}
+ }
  
 #aboutsection-leftdiv {
   color:white;
@@ -210,11 +219,13 @@ body {
   flex-direction: row;
   margin-top: 2vh;
   font-weight: bold;
+  /* font-size: 33px; */
 }
 .tab-link {
   position: relative;
   cursor: pointer;
-   margin-right: 35x; 
+   margin-right: 3vw; 
+
    /* some wokr needed here xsdvfffffffffffvvvvvvvvfffffffffffffffffffffffffffffffffffffff */
 }
 .tab-link::after {
@@ -248,11 +259,13 @@ li {
   list-style: none;
   position: relative;
   right: 3vw;
+  font-size: 19px;
   margin-top: 1vh;
 }
 ul li span {
   color: #4a9fd8;
-  font-size: 14px;
+  font-size: 22px;
+
   font-weight: bold;
   margin-left: 0;
 }
@@ -440,6 +453,7 @@ ul li span {
     background: linear-gradient(to right,#4d90b2, rgba(255, 255, 255, 0));
     color:rgb(255, 255, 255);
     transition: 1.2s;
+    border: none;
 }
 
 /*--THE FOLLOWING CSS OF PROJECT SECTION WILL APPLIED ON PROJECT-SECTION WHEN  CLICKED SEEMORE BUTTON---*/
@@ -554,6 +568,7 @@ ul li span {
   font-size: 17px;
   /* border: none; */
   outline: none;
+  border-right: none;
 }
 #form textarea {
   background-color: #353535;
@@ -564,11 +579,14 @@ height: 6vh;
   border-radius: 3px;
   margin-top: 4vh;
   padding-left: 1vh;
-  font-size:17px;
+  font-size:14px;
   caret-color:#4a9fd8 ;
+  font-family: sans-serif;
 resize: none;
   /* border: none; */
   outline: none;
+  border-right: none;
+
   /* text-align: center; */
 }
 #form textarea::placeholder{
@@ -597,6 +615,7 @@ resize: none;
   background: linear-gradient(to right,#4d90b2, rgba(255, 255, 255, 0));
   color:rgb(255, 255, 255);
   transition: 1.2s;
+  border: none;
 }
 /*--Contact section css ends--*/
 
