@@ -91,3 +91,12 @@ function sendMail(){
 }
 
 /*---Contact-form js end---*/
+
+/*---js start for toggling menu---*/
+
+function toggleMenu(){
+  let navlink=document.querySelector(".nav-links");
+  navlink.classList.toggle('show');
+ }
+
+/*---js end for toggling menu---*/
