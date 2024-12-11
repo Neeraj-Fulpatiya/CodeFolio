@@ -118,7 +118,7 @@ function project() {
     // Hide the extra content and change button back
     projectContainer2.classList.remove('showmore');
     projectSection.classList.remove('height');
-    seeMoreBtn.innerHTML = 'See More <i class="fa-solid fa-angles-down" id="see-more-icon"></i>';
+    seeMoreBtn.innerHTML = 'Explore More <i class="fa-solid fa-angles-down" id="see-more-icon"></i>';
   } else {
     // Show the extra content and update the button text
     projectContainer2.classList.add('showmore');

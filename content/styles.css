@@ -232,21 +232,27 @@ border: none;
   content: "";
   width: 0;
   height: 0.5vh;
-  left: 0;
-  bottom: -3px;
+  left: -3px;
+  bottom: -2px;
   position: absolute;
   background-color: #4a9fd8;
   transition: 1s;
 }
 .tab-link.active-link::after {
-  width: 1.5vw;
+  width: 80px;
   margin-left: 0.8vw;
+  left: -10px;
+  position: absolute;
+ 
 }
 .tab-content {
   display: none;
 }
 .tab-content.active-tab {
   display: block;
+}
+.tab-content  i{
+  color: #fff;
 }
 .highlight{
   color: #4a9fd8;
@@ -262,6 +268,7 @@ li {
   font-size: 19px;
   margin-top: 1vh;
 }
+
 ul li span {
   color: #4a9fd8;
   font-size: 22px;
