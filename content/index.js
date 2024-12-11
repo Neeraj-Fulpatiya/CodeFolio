@@ -48,3 +48,27 @@ function eraseProfession() {
 
 // Start the typing effect
 typeProfession();
+
+/*--Proffession js of first section ends--*/
+
+/*---About section js start---*/
+let tablinks = document.querySelectorAll(".tab-link");
+let tabcontents = document.querySelectorAll(".tab-content");
+
+function opentab(tabname, event) {
+    // Remove active class from all tab links
+    tablinks.forEach(tablink => {
+        tablink.classList.remove("active-link");
+    });
+
+    // Remove active class from all tab contents
+    tabcontents.forEach(tabcontent => {
+        tabcontent.classList.remove("active-tab");
+    });
+
+    // Add active class to the clicked tab link
+    event.currentTarget.classList.add("active-link");
+
+    // Show the corresponding tab content
+    document.getElementById(tabname).classList.add("active-tab");
+}
