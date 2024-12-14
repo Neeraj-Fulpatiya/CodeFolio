@@ -637,6 +637,15 @@ resize: none;
   transition: 1.2s;
   border: none;
 }
+#msg{
+  /* color: #4cbe7c; */
+  margin-top: 18px;
+  background:linear-gradient( to right, #4a9fd8, #fefdfdd5);
+  /* color: black; */
+  
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 /*--Contact section css ends--*/
 
 /*--footer section css start--*/
@@ -761,7 +770,8 @@ footer {
 
 /*--aboutt section css starts--*/
 #about-section {
-  background-image: url("images/Picture1.png");
+  background-image: url("images/1111.jpg");
+  /* 0000000000000000000000000000000000000000000000000000000000 */
 }
  
 #aboutsection-rightdiv {
@@ -958,7 +968,7 @@ footer {
   left:5vw;
   bottom: -3px;
   position: absolute;
-  background-color: #d62828;
+  background-color: #4a9fd8 ;
   transition: 1s;
 }
   #edu,

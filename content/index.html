@@ -304,6 +304,7 @@ Node.js and MongoDB.(06/23 to 07/23) -->
    <!--contact section start-->
    <h1 id="contact-me">Get in Touch</h1>
    <section id="contact-section">
+    
      <div id="contact-section-leftdiv">
       <h1 id="let-connect">Let's Collaborate!</h1>
       <p id="contact-para">Let's connect and create something extraordinary! Whether you’re envisioning a project, seeking guidance, or exploring collaboration, I’m eager to contribute and transform ideas into impactful realities.</p>
@@ -326,9 +327,14 @@ Node.js and MongoDB.(06/23 to 07/23) -->
         <input type="email" name="Email" placeholder="Email" class="input" id="email"  required>
        <textarea name="Message" placeholder="What We can do Together " id="message"></textarea>
         <button id="submit-btn" type="submit" onclick="sendMail()">Submit</button>
+      <span id="msg"></span>
       </form>
-    </div>  
+      <!-- <span>gggg</span> -->
+    </div> 
+  
+   <!-- new add line -->
 
+ <!-- <h1>hvhgjgvjhgvjhgvhjhvhgjgvjhgvjhgvhjhvhgjgvjhgvjhgvhjhvhgjgvjhgvjhgvhjhvhgjgvjhgvjhgvhjhvhgjgvjhgvjhgvhj</h1> -->
     <!-- <div id="contact-section-form">
       <form id="form" onsubmit="return sendMail(event)">
           <input type="text" placeholder="Name" class="input" id="name" required>
@@ -349,11 +355,19 @@ Node.js and MongoDB.(06/23 to 07/23) -->
      <script>
       const scriptURL = 'https://script.google.com/macros/s/AKfycbxBciQPvZUj-21feuRm0RYg0t2t64AgYyJEO5A6ijDCa8IeWH1J0trUkPhnNeudurIh/exec'
       const form = document.forms['submit-to-google-sheet']
-    
+    const msg=document.getElementById("msg"
+
+    )
       form.addEventListener('submit', e => {
         e.preventDefault()
         fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-          .then(response => console.log('Success!', response))
+          .then(response => {msg.innerHTML="Great!! Soon, we'll align our ideas!!"
+          setTimeout(function(){
+            msg.innerHTML="";
+          },6000)
+        form.reset()
+      })
+
           .catch(error => console.error('Error!', error.message))
       })
     </script>   
