@@ -143,46 +143,49 @@
         </ul>
         <ul class="tab-content" id="education">
           <li>
-            <span class="skills-list">InnoByte Services <a href="https://drive.google.com/file/d/1ZZ_j4V56GulPgdMppcckThT14rFJyu1r/view?usp=sharing"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            <span class="skills-list">InnoByte Services <a href="https://drive.google.com/file/d/1ZZ_j4V56GulPgdMppcckThT14rFJyu1r/view?usp=sharing"><i class="fa-solid fa-xs fa-arrow-up-right-from-square"></i></a>
               </span><br />
             <!-- Pursuing B.E. in CSE from
             Chandigarh University-2025 -->
             Developed a responsive frontend interface for a VPN project using
-React and Tailwind.(03/24 to 04/24)
+React and Tailwind. (03/24 to 04/24)
           </li>
           <li>
-            <span class="skills-list">Shyontech Software <a href="https://drive.google.com/file/d/1sybZJIIkHdTwR5M3b5rhEokPKsCPXwqY/view?usp=sharing"> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            <span class="skills-list">Shyontech Software <a href="https://drive.google.com/file/d/1sybZJIIkHdTwR5M3b5rhEokPKsCPXwqY/view?usp=sharing"> <i class="fa-solid fa-xs fa-arrow-up-right-from-square internIcon" ></i></a>
                </span><br />
             Engineered a global news and weather website using React,
-Node.js and MongoDB.(06/23 to 07/23)
+Node.js and MongoDB and gained hands on practice of building scalable websites.(06/23 to 07/23)
             <!-- Runner-up of Web Wizard
             Hackathon held in Chandigarh University 2023 -->
 
           </li>
           <li>
+            <span class="skills-list"> Web Wizard Hackathon</span><br />Runner-up in the web wazardry Hackathon held in CU.
+          </li>
+          <li>
             <span class="skills-list">Cricket Champions</span><br />Won the InterState cricket championship 
           </li>
         </ul>
-        <ul class="tab-content" id="education">
+        <!-- <ul class="tab-content" id="education">
           <li>
             <span class="skills-list">InnoByte Services </span><br />
-            <!-- Pursuing B.E. in CSE from
+            Pursuing B.E. in CSE from
             Chandigarh University-2025 -->
-            Developed a responsive frontend interface for a VPN project using
-React and Tailwind.(03/24 to 04/24)
-          </li>
+            <!-- Developed a responsive frontend interface for a VPN project using
+React and Tailwind.(03/24 to 04/24) -->
+          <!-- </li>
           <li>
             <span class="skills-list">Shyontech Software </span><br />
             Engineered a global news and weather website using React,
-Node.js and MongoDB.(06/23 to 07/23)
+Node.js and MongoDB.(06/23 to 07/23) -->
             <!-- Runner-up of Web Wizard
             Hackathon held in Chandigarh University 2023 -->
 
-          </li>
+          <!-- </li>
           <li>
             <span class="skills-list">Cricket Champions</span><br />Won the InterState cricket championship 
           </li>
-        </ul>
+        </ul>   -->
       </div>
       <div id="aboutsection-rightdiv">
         <!-- <img src="images/31.webp"id="abtsection-img"> -->
@@ -314,23 +317,46 @@ Node.js and MongoDB.(06/23 to 07/23)
      <!-- <i class="fa-brands fa-github"class="contact-icons"></i> -->
 <a href="https://www.instagram.com/neerajfulpatiya/"> <i class="fa-brands fa-instagram"class="contact-icons"></i></a>
         <!-- <i class="fa-brands fa-instagram"class="contact-icons"></i> -->
-     
+    
       </div>
      </div>
      <div id="contact-section-form">
-      <form id="form">
-        <input type="text" placeholder="Name" class="input" id="name" required>
-        <input type="email" placeholder="Email" class="input" id="email"  required>
-       <textarea placeholder="What We can do Together " id="message"></textarea>
-        <button id="submit-btn" onclick="sendMail()">Submit</button>
+      <form name="submit-to-google-sheet" id="form">
+        <input type="text" name="Name" placeholder="Name" class="input" id="name" required>
+        <input type="email" name="Email" placeholder="Email" class="input" id="email"  required>
+       <textarea name="Message" placeholder="What We can do Together " id="message"></textarea>
+        <button id="submit-btn" type="submit" onclick="sendMail()">Submit</button>
       </form>
-    </div>
+    </div>  
+
+    <!-- <div id="contact-section-form">
+      <form id="form" onsubmit="return sendMail(event)">
+          <input type="text" placeholder="Name" class="input" id="name" required>
+          <input type="email" placeholder="Email" class="input" id="email" required>
+          <textarea placeholder="What We can do Together" id="message" required></textarea>
+          <button id="submit-btn" type="submit">Submit</button>
+      </form>
+  </div> -->
+
    </section>
      <!--contact section ends-->
      <footer id="footer">
       <p class="end"> Crafting Digital Realities through Code !!! </p> 
        
      </footer>
+
+
+     <script>
+      const scriptURL = 'https://script.google.com/macros/s/AKfycbxBciQPvZUj-21feuRm0RYg0t2t64AgYyJEO5A6ijDCa8IeWH1J0trUkPhnNeudurIh/exec'
+      const form = document.forms['submit-to-google-sheet']
+    
+      form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+          .then(response => console.log('Success!', response))
+          .catch(error => console.error('Error!', error.message))
+      })
+    </script>   
 </body>
 <script src="index.js"></script>
 
