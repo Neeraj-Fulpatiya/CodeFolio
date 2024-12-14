@@ -79,25 +79,7 @@ function opentab(tabname, event) {
 
 
 
-function sendMail(){
-  // alert("send")
-  // let parms = {
-  //     name: document.querySelector("#name").value,
-  //     email: document.querySelector("#email").value,
-  //     message: document.querySelector("#message").value
-  // };
-  // emailjs.send("service_ak4sgxu","template_8vif9or", parms)
-  //     .then(() =>{
-  //         alert("Email has been sent!");
-  //     })
-  //     .catch((error) => {
-  //         console.error("Failed to send email:", error);
-  //     });
-}
-
-/*---Contact-form js end---*/
-
-/*--Contact-form js start---*/
+ /*--Contact-form js start---*/
  /*---js start for toggling menu---*/
 
 function toggleMenu(){

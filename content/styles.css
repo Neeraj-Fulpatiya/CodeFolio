@@ -200,8 +200,8 @@ border: none;
   height:100vh;
   border-bottom: 1px solid grey;
   margin-top: 2vh;
-  mix-blend-mode: difference;
- }
+  
+  }
  
 #aboutsection-leftdiv {
   color:white;
@@ -572,11 +572,8 @@ ul li span {
   margin-top: 4vh;
   caret-color: #4a9fd8;
   border-radius: 3px;
-  /* border: 1px solid red; */
-  /* background-color: #353535; */
-  background: linear-gradient(to right, #1f1919a1, #68c8f800) ;
-  /* border-image: linear-gradient(to right, #44bbce5d, #1123271d) 1; */
-  border-image: linear-gradient(to right, #2e87945d, #1123271d) 1;
+    background: linear-gradient(to right, #1f1919a1, #68c8f800) ;
+   border-image: linear-gradient(to right, #2e87945d, #1123271d) 1;
 
   /* height: 6vh; */
   color:white;
@@ -655,13 +652,10 @@ footer {
   font-size: 14px;
   
 }
-/* footer i {
-  color: red;
-} */
+ 
 /*--footer section css ends--*/
 .end{
-  /* border: 0px solid white; */
-  /* padding: 3rem; */
+   
   font-size: 2vw;
   font-weight: 900;
   background:linear-gradient( to right, #4a9fd8, #fefdfdd5);
