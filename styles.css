@@ -664,7 +664,7 @@ ul li span {
 #form textarea {
   background-color: #353535;
   background: linear-gradient(to right, #1f1919a1, #68c8f800) ;
-  height: 80px;
+  height: 75px;
   border: 2.3px solid;
   border-image: linear-gradient(to right, #2e87945d, #1123271d) 1;
   color:white;
