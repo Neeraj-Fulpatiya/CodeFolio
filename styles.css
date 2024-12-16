@@ -26,7 +26,7 @@ body {
   right: 0;
   top: 0;
   z-index: 1000;
-  font-size: 24px;
+  font-size: 20px;
 }
 #namelogo {
   margin-left:7vw;
@@ -158,7 +158,8 @@ body {
   color: white;
   margin-top: 2vh;
   cursor: pointer;
-  font-size: 24px;
+  font-size: 20px;
+  font-weight: 700;
 
 }
 #cv-button:hover {
@@ -193,6 +194,12 @@ border: none;
   color:white;
   font-weight: 400;
   font-size: 50px;
+  font-weight: bold;
+  background:linear-gradient( to right, #0593f2, #fefdfd);
+  /* color: black; */
+  
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
  
@@ -230,7 +237,9 @@ mix-blend-mode: difference;
  margin-right: 7vw;
 }
 #aboutsection-leftdiv>p {
-  margin-top: 7vh;
+  margin-top: 4vh;
+  letter-spacing: .7px;
+  /* font-weight: 00; */
 }
 #tab-container {
   display: flex;
@@ -289,7 +298,8 @@ li {
   list-style: none;
   position: relative;
   right: 3vw;
-  font-size: 19px;
+  font-size: 20px;
+  letter-spacing: .7px;
   margin-top: 1vh;
 }
 
@@ -319,6 +329,12 @@ ul li span {
   color:white;
   font-weight: 400;
   font-size: 50px;
+   font-weight: bold;
+  background:linear-gradient( to right, #0593f2, #fefdfd);
+  /* color: black; */
+  
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   
 }
 #service-section {
@@ -354,6 +370,8 @@ ul li span {
   padding-right: 2vw;
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
+  letter-spacing: .7px;
+
 }
 .servicesh2{
   font-size: 29px;
@@ -373,18 +391,28 @@ ul li span {
   text-align: center;
   font-size: 50px;
     margin-top: 5vh;
-  color:white;
-  font-weight: 400;
+  /* color:white; */
+  color: white;
+  /* mix-blend-mode: difference; */
+   font-size: 50px;
+  font-weight: bold;
+  background:linear-gradient( to right, #0593f2, #fefdfd);
+  /* color: black; */
+  
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 #project-section {
   height:87vh;
   color:white;
   border-bottom: 1px solid grey;
+  
 }
 #project-outer-container{
   display: flex;
   flex-direction:column;
+
 }
 #project-container{
   height: 72vh;
@@ -393,6 +421,7 @@ ul li span {
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
+  
 }
 #project-container2{   
   display:none;
@@ -438,8 +467,11 @@ ul li span {
 }
 .project-title {
   margin-top:10vh;
-  font-size: 1.6vw;
+  /* font-size: 1.6vw; */
+  font-size: 22px;
   color: black;
+  /* color: white;
+  mix-blend-mode: difference; */
 }
 .project-description {
   padding-left: 2vw;
@@ -688,7 +720,7 @@ footer {
 
 /*--nav section css starts--*/
 
-@media (max-width:700px) {
+@media (max-width:800px) {
   .nav-links {
     display: none;
     flex-direction: column; 
@@ -1040,6 +1072,15 @@ content: "&&&&";
 
 /*--project section css start--*/
 
+#my-project{
+  font-weight: bold;
+  background:linear-gradient( to right, #4a9fd8, #fefdfdd5);
+  /* color: black; */
+  
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
 #project-section {
   height:220vh;
 }
@@ -1058,19 +1099,24 @@ content: "&&&&";
     width: 85vw;
     margin-left:2vw;
   display: flex;
+  color: black;
   flex-direction: column;
   justify-content: space-evenly;
   position: relative;
   overflow: hidden;
+  /* mix-blend-mode: difference; */
 }
 .project-title {
   margin-top:10vh;
+  font-size: 22px;
+  /* color: white;
+  mix-blend-mode: difference; */
 }
 .project-description {
   padding-left: 2vw;
   padding-right: 2vw;
   margin-top:2vh;
-  font-size: 12px;
+  font-size: 18px;
 }
 .project-link {
   height: 5vh;
