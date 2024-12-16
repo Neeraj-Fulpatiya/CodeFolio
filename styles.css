@@ -1,17 +1,18 @@
 * {
   margin: 0px;
   padding: 0;
-  box-sizing: border-box;
-  /* font-size: 24px */
+  /* box-sizing: border-box; */
+  /* font-size: 24px; */
 }
 html {
   scroll-behavior: smooth;
 }
 body {
   background-color:rgb(0, 0, 0);
-  font-family: Poppins;
-  cursor: url("images/1111.jpg"),auto;
+  /* font-family: Poppins; */
+  
 }
+
 /*--Navbar css starts--*/
 #navbar {
   background-color:black;
@@ -25,6 +26,7 @@ body {
   right: 0;
   top: 0;
   z-index: 1000;
+  font-size: 24px;
 }
 #namelogo {
   margin-left:7vw;
@@ -156,6 +158,8 @@ body {
   color: white;
   margin-top: 2vh;
   cursor: pointer;
+  font-size: 24px;
+
 }
 #cv-button:hover {
   /* background-color: #4a9fd8; */
@@ -195,7 +199,8 @@ border: none;
 #about-section {
   /* background-image: url("images/second.webp"); */
   /* background-image: url("https://raw.githubusercontent.com/jsuarezruiz/jsuarezruiz/master/images/coding.gif" ); */
-  background-image: url("https://camo.githubusercontent.com/4d9f5ecceb711eec6e2018f38a5677dc657c9738d4a65ba3b928c41c0a45b439/68747470733a2f2f6d69726f2e6d656469756d2e636f6d2f6d61782f313336302f302a37513379765349765f7430696f4a2d5a2e676966");
+  /* background-image: url("https://camo.githubusercontent.com/4d9f5ecceb711eec6e2018f38a5677dc657c9738d4a65ba3b928c41c0a45b439/68747470733a2f2f6d69726f2e6d656469756d2e636f6d2f6d61782f313336302f302a37513379765349765f7430696f4a2d5a2e676966"); */
+  background-image: url(images/asdasfas.gif);
   background-repeat: no-repeat;
 
   background-attachment: fixed;
@@ -206,7 +211,9 @@ border: none;
   /* width: 100px; */
   border-bottom: 1px solid grey;
   margin-top: 2vh;
-  
+  font-size: 24px;
+
+
   }
  
 #aboutsection-leftdiv {
@@ -218,6 +225,8 @@ border: none;
   width: 45vw;
  float:right;
  right: 60vw;
+ color: white;
+mix-blend-mode: difference;
  margin-right: 7vw;
 }
 #aboutsection-leftdiv>p {
@@ -291,13 +300,13 @@ ul li span {
   font-weight: bold;
   margin-left: 0;
 }
-#aboutsection-rightdiv{
+/* #aboutsection-rightdiv{
   display:none;
-  width:100vw;
-  height:65vh;
+  /* width:100vw; */
+  /* height:65vh;
   margin-left:1vw;
   margin-top: 13vh;
-}
+} */ 
 /*--about section css ends--*/
 
 
@@ -591,8 +600,9 @@ ul li span {
 #form textarea {
   background-color: #353535;
   background: linear-gradient(to right, #1f1919a1, #68c8f800) ;
+  height: 6vh;
+  border: 2.3px solid;
   border-image: linear-gradient(to right, #2e87945d, #1123271d) 1;
-height: 6vh;
   color:white;
   border-radius: 3px;
   margin-top: 4vh;
@@ -604,6 +614,7 @@ resize: none;
   /* border: none; */
   outline: none;
   border-right: none;
+  padding: 7px ;
 
   /* text-align: center; */
 }
@@ -765,7 +776,7 @@ footer {
 
 /*--aboutt section css starts--*/
 #about-section {
-  background-image: url("images/1111.jpg");
+  /* background-image: url("images/1111.jpg"); */
   /* 0000000000000000000000000000000000000000000000000000000000 */
 }
  
@@ -792,6 +803,9 @@ footer {
 }
 .services>h2 {
   font-size:2vh;
+}
+.servicesh2>p{
+display: none;
 }
 /*--services section css ends--*/
 
@@ -887,10 +901,10 @@ footer {
     display: flex;
     flex-direction: column;
     gap:5vh;
-    height:160vh;
+    height:65vh;
   }
   
-  #firstsection-leftdiv {
+  /* #firstsection-leftdiv {
     width:85vw;
     height:70vh;
     font-size:16px;
@@ -898,7 +912,7 @@ footer {
     flex-direction: column;
     margin-left:4vw;
     margin-top: 12vh;
-  }
+  } */
   
   #firstsection-leftdiv > h1 {
     font-size:3.5vh;
@@ -912,17 +926,18 @@ footer {
 
   #firstsection-icons-container {
     height: 6vh;
-    width:55vw;
+    width:70vw;
     margin-top:4vh;
   }
 
   .social-iconlink > i {
     font-size:5vh;
     margin-right:5vw;
+    margin-top: 20px;
   }
 
   #cv-button {
-    margin-top:5vh;
+    margin-top:50px;
     width:50vw;
   }
   #firstsection-rightdiv{
@@ -939,7 +954,7 @@ footer {
     display:flex;
     flex-direction:column;
     gap:2vh;
-    height:170vh;
+    height:70vh;
   }
    #aboutsection-leftdiv {
     color:white;
@@ -949,7 +964,11 @@ footer {
     display: flex;
     flex-direction: column;
     margin-left:4vw;
+    margin-right: 20px;
     margin-top:6vh;
+    font-size: 19px;
+    /* letter-spacing: .5px; */
+    word-spacing: 2px;
   }
   /*--tab--*/
   .tab-link.active-link::after {
@@ -970,7 +989,7 @@ footer {
 #lang {
   padding-left:5vw;
 }
-   #aboutsection-rightdiv{
+   /* #aboutsection-rightdiv{
     display:block;
     height:50vh;
     width:80vw;
@@ -978,16 +997,16 @@ footer {
      flex-direction:column;
      margin-left:12vw;
      margin-top:15vh; 
-  }
+  } */
   /*-- About section ends --*/
 
   /*-- Services section starts --*/
   #service-section {
-  height:210vh;
+  height:110vh;
 }
   #service-container {
     width:85vw;
-    height:200vh;
+    height:100vh;
     margin-top:8vh;
     display:flex;
     flex-direction:column;
@@ -995,12 +1014,17 @@ footer {
     align-items:center;
     gap:5vh;
   }
+  /* #service-container > p::before {
+
+content: "&&&&";
+
+  } */
   .services {
     height:50vh;
     padding-left:4vw;
     width: 85vw;
     margin-left:2vw;
-    font-size: 16px;
+    font-size: 22px;
   }
 
   .services > i {
@@ -1008,7 +1032,8 @@ footer {
   }
 
   .services > h2 {
-    font-size:4vh;
+    /* font-size:4vh; */
+    font-size: 30px;
   }
   /*-- Services section ends --*/
 
@@ -1076,30 +1101,36 @@ footer {
   display: flex;
   flex-direction:column;
   justify-content: space-between;
-  margin-top: 2vh;
+  margin-top: -12vh;
 }
 #contact-section-form {
-  height:85vh;
+  height:55vh;
   width:90vw;
-  margin-top:3vh;
+  /* margin-top:3vh; */
   margin-left:3vw;
 }
 #contact-section-leftdiv {
-  height:70vh;
+  height:5vh;
   width:80vw;
 }
 #let-connect {
-  margin-top: 9vh;
+  /* margin-top: -9vh; */
+  font-size: 25px;
 }
 #contact-para {
   margin-top: 5vh;
-  font-size: 14px;
+  font-size: 22px;
 }
 #contact-icons-container {
   width:40vw;
+  /* gap: 140px; */
+  /* padding-right: 130px; */
 }
 #contact-icons-container > i {
-  font-size: 3vh;
+  font-size: 4vh;
+}
+.email{
+  font-size: 18px;
 }
 #form {
   height:70vh;
@@ -1108,24 +1139,30 @@ footer {
   flex-direction: column;
   justify-content:center;
   align-items:center;
-  margin-top:5vh;
+  margin-top:-35vh;
   margin-left:2vw;
+  margin-bottom: -10vh;
 }
 #form>input {
   width:88vw;
   margin-top: 4vh;
-  font-size: 14px;
+  font-size: 17px;
 }
 #form textarea {
   margin-top: 4vh;
   width:88vw;
-  padding-top:5vh;
-  padding-bottom:5vh;
-  
+  /* padding-top:5vh; */
+  /* padding-bottom:5vh; */
+  font-size: 18px;
+  /* height: 5vh; */
 }
 #submit-btn {
   width:50vw;
   margin-left:22vw;
+  margin-left: -6vw;
+}
+#form textarea::placeholder{
+  font-size: 15px;
 }
 /*--Contact section css ends--*/
 /*--footer section css start--*/
@@ -1137,6 +1174,9 @@ footer {
   #cv-button {
     margin-top:5vh;
     width:50vw;
+  }
+  .end{
+    font-size: 30px;
   }
 }
 
