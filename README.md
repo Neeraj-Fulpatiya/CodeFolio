@@ -26,7 +26,7 @@ Here's a quick overview of the main files in the project:
 
 - **Dynamic Contact Form**: Reach out to me directly! With Email.js, form submissions send emails straight to my inbox. 
 - **Tabbed Navigation**: Explore sections like "Skills," "Education," and "Languages" in a smooth, organized format.
-- **Responsive Design**: Still working on this factor , to make it more responsive .
+- **Responsive Design**: Still working on this factor  to make it more responsive .
  
 ##  Getting Started
 
