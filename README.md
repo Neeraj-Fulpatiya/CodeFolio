@@ -10,14 +10,14 @@ Welcome to my portfolio- Codefolio! This site highlights my expertise, journey, 
 This portfolio is crafted to deliver a seamless and engaging user experience, showcasing my skills and projects while providing easy contact options.
 Developed using clean HTML, CSS, and JavaScript, it runs smoothly after deployment.
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 - **HTML5**: Structured the website content 
 - **CSS3**: Styled the layout and elements 
 - **JavaScript**: Added interactivity and dynamic elements 
 - **Google Sheet**: Integrated for sending emails through the contact form 
  
-## 📁 Project Structure
+##  Project Structure
 
 Here's a quick overview of the main files in the project:
 
