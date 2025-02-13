@@ -345,7 +345,10 @@ ul li span {
 /*--Services section css start--*/
 
 #my-service {
-  text-align: center;
+/*   text-align: center; */
+    width: 100%;
+ display: flex;
+  justify-content: center;
   margin-top: 5vh;
   color:white;
   font-weight: 400;
